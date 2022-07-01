@@ -107,7 +107,6 @@ class App extends Component {
             //   title: _title,
             //   desc: _desc,
             // });
-
             let _contents = Array.from(this.state.contents);
             _contents.push({
               id: this.max_contents_id,
@@ -136,7 +135,7 @@ class App extends Component {
             let _contents = Array.from(this.state.contents);
             let i = 0;
             while (i < _contents.length) {
-              if (_contents[i].id == _id) {
+              if (_contents[i].id === _id) {
                 _contents[i] = {
                   id: _id,
                   title: _title,

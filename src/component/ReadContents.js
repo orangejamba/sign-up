@@ -7,13 +7,12 @@ class ReadContents extends Component {
       <article>
         <h2>{this.props.title}</h2>
         {this.props.desc}
-        <br></br>
         이름: {this.props.name}
-        <br></br>
+        <hr></hr>
         아이디: {this.props.ID}
-        <br></br>
+        <hr></hr>
         주소: {this.props.adress}
-        <br></br>
+        <hr></hr>
         전화번호: {this.props.callNum}
       </article>
     );
